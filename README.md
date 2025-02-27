@@ -18,6 +18,8 @@ You can check out the live version on **Vercel**:
 ## 📡 APIs Used
 - [ipapi.co/api/](https://ipapi.co/api/) - For fetching IP details
 
+## ⚠️ Disclaimer
+This provides approximate geolocation based on IP address and **does not guarantee accuracy**. The results may vary and should not be used for precise location tracking.
 
 ## 📜 License
 This project is licensed under the **GPLv3.0 License**. See [LICENSE](LICENSE) for details.
