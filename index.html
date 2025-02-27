@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 IP Location Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🌍 IP Location Finder</h2>
+        <div class="input-box">
+            <input type="text" id="ip_addr" placeholder="Enter IP Address" value="1.1.1.1">
+            <button onclick="showBox()" id="search_location">🔍 Search Any IP Address</button>
+            <button onclick="fetchData()">🌍 Get Location</button>
+        </div>
+        <div id="result-card" class="hidden">
+            <h3>📍 Location Details</h3>
+            <p><strong>🌐 Org:</strong> <span id="org"></span></p>
+            <p><strong>📌 IP Address:</strong> <span id="ip"></span></p>
+            <p><strong>🛰️ IP Version:</strong> <span id="ip_ver"></span></p>
+            <p><strong>🏳️ Country:</strong> <span id="country"></span></p>
+            <p><strong>🏛️ Region:</strong> <span id="region"></span></p>
+            <p><strong>🏙️ City:</strong> <span id="city"></span></p>
+            <p><strong>🗺️ Latitude:</strong> <span id="latitude"></span></p>
+            <p><strong>🗺️ Longitude:</strong> <span id="longitude"></span></p>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
