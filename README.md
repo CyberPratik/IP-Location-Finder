@@ -16,8 +16,8 @@ You can check out the live version on **Vercel**:
 🔗 [Your Vercel Link Here](https://ip-location-finder.vercel.app/)
 
 ## 📡 APIs Used
-- [ip-api.com](https://ip-api.com/) - For fetching IP details
-- [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) - To get user location
+- [ipapi.co/api/](https://ipapi.co/api/) - For fetching IP details
+
 
 ## 📜 License
 This project is licensed under the **GPLv3.0 License**. See [LICENSE](LICENSE) for details.
